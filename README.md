@@ -23,6 +23,6 @@ PORT=3001 REACT_APP_CLIENT_ID=1 npm start
 # in a new terminal -> access client app
 cd client/
 
-# run react app for client 2s
+# run react app for client 2
 PORT=3002 REACT_APP_CLIENT_ID=2 npm start
 ```
