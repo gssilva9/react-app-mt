@@ -1,6 +1,6 @@
 # react-app-mt
 
-> DESSSSC with React
+> Multi-Tenant app with React
 
 ## Build Setup
 
