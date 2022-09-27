@@ -1,0 +1,36 @@
+[
+  {
+    "clientId": 1,
+    "name": "MASTER",
+    "routes": {
+      "home": {
+        "path": "/",
+        "component": "HomePage"
+      }
+    },
+    "components": {
+      "card": {
+        "showHeader": true,
+        "showImage": true,
+        "showFooter": true
+      }
+    }
+  },
+  {
+    "clientId": 2,
+    "name": "SAI",
+    "routes": {
+      "home": {
+        "path": "/",
+        "component": "HomePage"
+      }
+    },
+    "components": {
+      "card": {
+        "showHeader": true,
+        "showImage": true,
+        "showFooter": true
+      }
+    }
+  }
+]
