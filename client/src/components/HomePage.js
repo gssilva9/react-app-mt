@@ -1,21 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
 import logoSophie from '../assets/img/sophie.png';
-import logoSai from '../assets/img/sai.png';
+import Voicero from '../assets/img/voicero.png';
 import { getConfig } from '../services/config.service';
 
 const items = [
   {
     id: 'card1',
     title: 'Sophie',
-    description: 'Sophie é uma Assistente Virtual que utiliza a Inteligência Virtual para melhorar o seu atendimento constantemente.',
+    description: 'Sophie é uma Assistente Virtual que utiliza a Inteligência Virtual para melhorar o seu atendimento e aprender constantemente de acordo com sua utilização.',
+    link: 'https://stefanini.com/pt-br/solucoes/inteligencia-artificial/sophie',
     img: logoSophie
   },
   {
     id: 'card2',
-    title: 'SAI',
-    description: 'SAI Translator é um Assistente Virtual que utiliza a Inteligência Virtual para fazer traduções em tempo real nas suas chamadas do Teams.',
-    img: logoSai
+    title: 'Voicero',
+    description: 'Voicero Translator é um Assistente Virtual que utiliza a Inteligência Virtual para fazer traduções em tempo real nas suas chamadas do Microsoft Teams.',
+    link: 'https://voicero.net/',
+    img: Voicero
   }
 ]
 
